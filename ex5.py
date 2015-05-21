@@ -7,6 +7,8 @@ weight = 180 #lbs
 eyes = 'Blue'
 teeth = 'White'
 hair = 'Brown'
+height_in_centimeters = height * 2.54
+weight_in_kilograms = weight * 0.454
 
 print "Let's talk about %s." %name
 print "He's %d inches tall." %height
@@ -17,3 +19,6 @@ print "His teeth are usually %s depending on the coffee." %teeth
 
 #this line is tricky, try to get it exactly right
 print "If I add %d, %d, and %d I get %d." %(age,height,weight,age + height + weight)
+
+print "He's %d centimeters tall." %height_in_centimeters
+print "he's %d kilograms heavy." %weight_in_kilograms
