@@ -9,6 +9,7 @@ teeth = 'White'
 hair = 'Brown'
 height_in_centimeters = height * 2.54
 weight_in_kilograms = weight * 0.454
+flot_number = round(1.7333)
 
 print "Let's talk about %s." %name
 print "He's %d inches tall." %height
@@ -22,3 +23,4 @@ print "If I add %d, %d, and %d I get %d." %(age,height,weight,age + height + wei
 
 print "He's %d centimeters tall." %height_in_centimeters
 print "he's %d kilograms heavy." %weight_in_kilograms
+print "Here is a flot number %f" %flot_number
